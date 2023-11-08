@@ -1,9 +1,11 @@
 <script>
 import AppTitle from './components/AppTitle.vue'
+import AppHero from './components/AppHero.vue'
 export default {
   name:'App',
   components:{
     AppTitle,
+    AppHero
   },
   data(){
     return {
@@ -14,9 +16,10 @@ export default {
 </script>
 
 <template>
-  <AppTitle/>
+  <AppHero>
+  </AppHero>
 </template>
 
-<style scoped>
+<style lang="css" scoped>
 
 </style>
